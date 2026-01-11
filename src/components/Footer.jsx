@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer className="bg-white border-y">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <footer className="bg-white border-y m-10">
+            <div className="mx-auto w-full max-w-screen-7xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
@@ -21,12 +21,12 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/" className="hover:underline hover:text-orange-600">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
+                                    <Link to="/about" className="hover:underline hover:text-orange-600">
                                         About
                                     </Link>
                                 </li>
@@ -37,8 +37,8 @@ function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
-                                        className="hover:underline"
+                                        href="#"
+                                        className="hover:underline hover:text-orange-600"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
@@ -46,7 +46,7 @@ function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/" className="hover:underline hover:text-orange-600">
                                         Discord
                                     </Link>
                                 </li>
@@ -56,12 +56,12 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="#" className="hover:underline hover:text-orange-600">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="#" className="hover:underline hover:text-orange-600">
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
@@ -73,8 +73,8 @@ function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        <a href="#" className="hover:underline">
+                            himanshu sharma
                         </a>
                         . All Rights Reserved.
                     </span>
