@@ -4,11 +4,11 @@ import { Link, NavLink } from 'react-router-dom';
 function Header() {
     return (
         <header className="shadow sticky z-50 top-0 mx-auto">
-            <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+            <nav className="bg-gray-600 border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-7fxl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                            src="https://imgs.search.brave.com/mbWhHLydwYtmDSpeRX5NLS0-MaFS41flt5cnaCiEb_g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzIv/NTM4LzU5NC9zbWFs/bC9sZXR0ZXItaC1s/b2dvLWZyZWUtcG5n/LnBuZw"
                             className="mr-3 h-12"
                             alt="Logo"
                         />

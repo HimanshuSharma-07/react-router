@@ -10,7 +10,7 @@ function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                                src="https://imgs.search.brave.com/mbWhHLydwYtmDSpeRX5NLS0-MaFS41flt5cnaCiEb_g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzIv/NTM4LzU5NC9zbWFs/bC9sZXR0ZXItaC1s/b2dvLWZyZWUtcG5n/LnBuZw"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
