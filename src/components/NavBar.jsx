@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 
+
 function Header() {
     return (
         <header className="shadow sticky z-50 top-0 mx-auto">
-            <nav className="bg-gray-600 border-gray-200 px-4 lg:px-6 py-2.5">
+            <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-7fxl">
                     <Link to="/" className="flex items-center">
                         <img
@@ -35,8 +36,9 @@ function Header() {
                             <li>
                                 <NavLink
                                 to="/"
-                                    className={() =>
-                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    className={({isActive}) =>
+                                    
+                                        `block py-2 ${isActive ? "text-orange-600" : "text-gray-700"}  pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent hover:underline lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Home
@@ -45,12 +47,23 @@ function Header() {
                             <li>
                                 <NavLink
                                     to="/about"
-                                    className={() =>
+                                    className={({isActive}) =>
                                     
-                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 border-b ${isActive ? "text-orange-600" : "text-gray-700"} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent hover:underline  lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     About
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to="/contact"
+                                    className={({isActive}) =>
+                                    
+                                        `block py-2 pr-4 pl-3 duration-200 border-b ${isActive ? "text-orange-600" : "text-gray-700"} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent hover:underline  lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Contact
                                 </NavLink>
                             </li>
                             
