@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
+                <div className="relative z-10 max-w-screen-7xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
@@ -32,7 +32,7 @@ function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="https://imgs.search.brave.com/Cy0dLYUyWziLZs54n-oN5Alsy0p_EiVenzKy1bKsS0E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z29kYWRkeS5jb20v/cmVzb3VyY2VzL3Vr/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9zaXRl/cy82LzIwMjQvMDgv/RFRVSy0xNzQzLUJs/b2ctQXNzZXRzLUJy/YW5kZWQtSGVyby1J/bWFnZXMtVUstUGFy/dC0yLUhvdy10by1m/aW5kLWZyZWUtaW1h/Z2VzLWZvci15b3Vy/LXdlYnNpdGUucG5n/P3NpemU9Mzg0MHgw" alt="image1" />
                 </div>
             </aside>
 
