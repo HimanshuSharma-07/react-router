@@ -9,7 +9,7 @@ function Home() {
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
-                            <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+                            <span className="hidden sm:block text-4xl">Lorem ipsum</span>
                         </h2>
 
                         <Link
@@ -32,12 +32,12 @@ function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://imgs.search.brave.com/Cy0dLYUyWziLZs54n-oN5Alsy0p_EiVenzKy1bKsS0E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z29kYWRkeS5jb20v/cmVzb3VyY2VzL3Vr/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9zaXRl/cy82LzIwMjQvMDgv/RFRVSy0xNzQzLUJs/b2ctQXNzZXRzLUJy/YW5kZWQtSGVyby1J/bWFnZXMtVUstUGFy/dC0yLUhvdy10by1m/aW5kLWZyZWUtaW1h/Z2VzLWZvci15b3Vy/LXdlYnNpdGUucG5n/P3NpemU9Mzg0MHgw" alt="image1" />
+                    <img className="w-96 rounded-4xl" src="https://imgs.search.brave.com/Cy0dLYUyWziLZs54n-oN5Alsy0p_EiVenzKy1bKsS0E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z29kYWRkeS5jb20v/cmVzb3VyY2VzL3Vr/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9zaXRl/cy82LzIwMjQvMDgv/RFRVSy0xNzQzLUJs/b2ctQXNzZXRzLUJy/YW5kZWQtSGVyby1J/bWFnZXMtVUstUGFy/dC0yLUhvdy10by1m/aW5kLWZyZWUtaW1h/Z2VzLWZvci15b3Vy/LXdlYnNpdGUucG5n/P3NpemU9Mzg0MHgw" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-96 w-48 rounded-4xl" src="https://imgs.search.brave.com/0YfwC0H1kjarDqbRwoHxY6ZuZzzbcFAM0f7TwaA921Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvYmVpZ2UtYnJv/d24tYWVzdGhldGlj/LTlldzl5dTI0MDQy/ZWUwMTQuanBn" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
